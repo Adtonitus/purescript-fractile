@@ -1,3 +1,5 @@
+> ⚠️ This project is in early development. The architecture is in place, but many parts are still being implemented. Contributions, feedback, and discussion are welcome!
+
 # purescript-fractile
 
 A **cross-platform UI library** for building declarative layouts and reactive user interfaces using PureScript.
@@ -5,7 +7,7 @@ A **cross-platform UI library** for building declarative layouts and reactive us
 ## Features
 
 - **Cross-platform support**: `Layout` and `Drawing` abstractions for both web and native applications
-- **Reactive and Modular**: Built around [purescript-signal](https://pursuit.purescript.org/packages/purescript-signal/13.0.0) with a cute `Action` wrapper around `Effect` and the `Live` monad, making composition and state management a breeze.
+- **Reactive and Modular**: Built around [purescript-signal](https://pursuit.purescript.org/packages/purescript-signal/13.0.0) with a cute `Action` newtype wrapping `Effect` and the `Live` monad, making composition and state management a breeze.
 - **Pure and functional**: No side-effects in UI construction — everything is purely functional.
 
 ### 🧩 Separation of Concerns: UI Code is Stateless 🧩
